@@ -1,0 +1,169 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #333;
+    color: rgb(237, 236, 236);
+}
+
+html{
+    font-size: 10px;
+}
+
+p{
+    padding: 1.6rem;
+}
+
+header{
+    height: 46rem;
+   
+}
+
+header .bg-image {
+    position: absolute;
+    background-image:url(wallhaven-q2xpgd_1184x700.png);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn{
+    border: 1px solid #666;
+    background-color:grey;
+    color: black;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+    transition: all 0.5s;
+}
+
+#section-a{
+    background-color:gray;
+    color: black;
+    padding: 3.2rem 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+
+#section-b li{
+    color: black;
+    background-color: grey;
+    margin-bottom: 1.5rem;
+}
+
+.col-content{
+    padding: 1.5rem;
+}
+
+#section-c{
+    padding:5rem;
+    color: black;
+    background-color: grey;
+}
+
+#section-d .box{
+    padding: 5rem;
+    color: rgb(237, 236, 236);
+}
+
+#section-d .box:first-child{
+    background-color:#333;   
+}
+
+#section-d .box:last-child{
+    background-color:#333;
+}
+
+#section-d .box a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#section-d .box a:hover{
+    color:gray;
+    text-decoration: underline ;
+}
+
+footer{
+    background-color: gray;
+    color: black;
+    padding: 4rem;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer a{
+    color:#fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+    html{
+        font-size: 11px;
+    }
+
+    #section-b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+        
+    }
+
+
+}
+
+
+
+
+
